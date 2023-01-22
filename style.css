@@ -1,0 +1,92 @@
+body{
+	background: url('./assets/images/kalimba1.png'), url('./assets/images/kalimba2.png');
+	background-color: black;
+	position: relative, relative;
+	left: 0px, 0px;
+	width: 100%, 100%;
+	clear: both, both;
+	animation-name: parallax;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-play-state: running;
+}
+#border1 {
+	border: 27px solid black;
+	height: 390px;
+	width:430.9px;
+	margin: auto;
+	margin-top: 260px;
+	border-image: url("./assets/images/yumeborder.png") 27 stretch;
+	background-color: black;
+}
+#music {
+	position: relative;
+	top:10px;
+	left:10px;
+}
+.WEL{
+	font-family: 'yummy nickels';
+	font-size: 48px;
+	color:#ffcfe7;
+	margin: auto;
+	position: relative;
+	top: 5%;
+	left: 72%;
+	transform: translate(-50%, -50%);
+}
+.TXT{
+	font-family: 'RM2000';
+	font-size: 48px;
+	color:#c692c6;
+	position: relative;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.TXT2 {
+	font-family: 'RM2000';
+	text-align:center;
+	font-size: 22px;
+	color:#c692c6;
+	top: 40px;
+	left: 90px;
+	position: relative;
+}
+.button{
+	font-family: 'RM2000';
+	font-size: 30px;
+	background-color: #000000;
+    color: #c692c6;
+    padding: 5px 5px;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+.button:hover
+{
+	opacity: 80%;
+}
+.IMG{
+	position:relative;
+	top: -230px;
+	left: 257px;
+}
+.SOCIAL
+{
+	font-size: 32px;
+	letter-spacing: 0.3cm;
+	text-align: center;
+	text-decoration: none;
+	margin: auto;
+	bottom:155px;
+	left:95px;
+	position: relative;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+/*End of Home Page*/
+@keyframes parallax {
+	0%   {background-position:0, 0;}
+	100% {background-position: -596px, 596px;}
+  }
