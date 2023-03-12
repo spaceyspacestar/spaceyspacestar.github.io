@@ -40,7 +40,7 @@ body{
 	font-size: 48px;
 	color:#c692c6;
 	position: relative;
-	top: 20%;
+	top: 10%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
@@ -48,8 +48,9 @@ body{
 	font-family: 'RM2000';
 	text-align:center;
 	font-size: 22px;
+	line-height: 0.3;
 	color:#c692c6;
-	top: 40px;
+	top: -108px;
 	left: 90px;
 	position: relative;
 }
@@ -68,7 +69,7 @@ body{
 }
 .IMG{
 	position:relative;
-	top: -230px;
+	top: -350px;
 	left: 257px;
 }
 .SOCIAL
@@ -78,7 +79,7 @@ body{
 	text-align: center;
 	text-decoration: none;
 	margin: auto;
-	bottom:155px;
+	bottom:238px;
 	left:95px;
 	position: relative;
 }
